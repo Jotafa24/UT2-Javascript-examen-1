@@ -10,3 +10,16 @@
  */
 
 console.log('ejercicio 3') //no quitar este console.log, empezar debajo el ejercicio
+
+function abaco(num1, num2, operacion) {
+
+
+    if (operacion === "sumar")
+        console.log(num1 + num2)
+    if (operacion === "restar")
+        console.log(num1 - num2)
+    else { console.log("operacion desconocida") }
+
+}
+
+abaco()
